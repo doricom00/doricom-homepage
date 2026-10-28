@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en" data-base="/en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+<title>Structured Cabling | DORICOM Co., Ltd.</title>
+<meta name="description" content="DORICOM is a Korean ICT construction specialist: structured cabling, fiber optics, network installation and maintenance, CCTV & security, telecom services and store solutions.">
+<link rel="canonical" href="https://doricom.co.kr/en/construction/cabling">
+<link rel="alternate" hreflang="ko" href="https://doricom.co.kr/construction/cabling">
+<link rel="alternate" hreflang="en" href="https://doricom.co.kr/en/construction/cabling">
+<link rel="alternate" hreflang="x-default" href="https://doricom.co.kr/construction/cabling">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DORICOM Co., Ltd.">
+<meta property="og:title" content="DORICOM Co., Ltd. | ICT Construction Specialist">
+<meta property="og:description" content="Korea's ICT & Telecom Specialist">
+<meta property="og:image" content="https://doricom.co.kr/assets/og-image-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://doricom.co.kr/en/construction/cabling">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/favicon.png">
+<meta name="naver-site-verification" content="bf8926ca8a707da4250448ce6001f4f29b34c58b" />
+<meta name="google-site-verification" content="Q43ChPVqg02Tbxm_DpNvXTQEPWv8BTvcWEuKFr4MmZ4" />
+<style>html,body{margin:0}</style>
+</head>
+<body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap">
+<style>
+/* Layout: conventional Korean corporate site. Mega-dropdown GNB, full-width visual slider, business cards, number band, gallery, 3-column notice/cert/center, sub pages with sub-visual + tab LNB */
+:root{
+  --blue:#1B4A92; --blue-d:#143A75; --navy:#042453; --gold:#BB8D42;
+  --ink:#222222; --body:#555555; --mute:#888888; --line:#E2E2E2; --bg:#F6F7F9; --white:#FFFFFF; --foot:#2A2D33;
+  --font:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--white);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.6;word-break:normal;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}
+ul{list-style:none;margin:0;padding:0}
+h1,h2,h3,h4,p{margin:0}
+img{max-width:100%}
+.inner{max-width:1280px;margin:0 auto;padding-inline:20px}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+/* photo placeholder */
+.photo{position:relative;background:linear-gradient(160deg,#5b6675 0%,#3a4350 55%,#2a313b 100%);overflow:hidden}
+.photo.b{background:linear-gradient(160deg,#4f6a8f 0%,#33465f 60%,#243246 100%)}
+.photo.c{background:linear-gradient(160deg,#6b7280 0%,#474d57 60%,#30343b 100%)}
+.photo.d{background:linear-gradient(160deg,#58708a 0%,#3b4a5c 60%,#29323e 100%)}
+.photo::after{content:attr(data-label);position:absolute;right:10px;bottom:8px;font-size:11px;color:rgba(255,255,255,.55);letter-spacing:0}
+
+/* header */
+#hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:100;background:#fff;border-bottom:1px solid var(--line)}
+#hd .bar{display:flex;align-items:center;justify-content:space-between;height:90px}
+#hd .logo img{height:50px;display:block}
+.gnb{display:flex;height:90px}
+.gnb>li{position:relative;width:150px;text-align:center}
+.gnb>li>a{display:flex;align-items:center;justify-content:center;height:90px;font-size:17px;font-weight:700;color:var(--ink)}
+.gnb>li:hover>a,.gnb>li>a.on{color:var(--blue)}
+.gnb .sub{display:none;padding:18px 0 22px}
+.gnb .sub a{display:block;padding:5px 0;font-size:15px;color:var(--body)}
+.gnb .sub a:hover{color:var(--blue);text-decoration:underline}
+.mega-bg{display:none;position:absolute;left:0;right:0;top:90px;height:200px;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);box-shadow:0 8px 12px rgba(0,0,0,.05);z-index:-1}
+#hd.open .gnb .sub,#hd.open .mega-bg{display:block}
+#hd.open .gnb>li{border-left:1px solid transparent}
+.hd-tel{text-align:right;line-height:1.2}
+.hd-tel small{display:block;font-size:12px;color:var(--mute)}
+.hd-tel b{font-size:24px;color:var(--blue);font-weight:900;letter-spacing:0}
+.m-btn{display:none;background:none;border:0;padding:6px;cursor:pointer}
+.m-btn span{display:block;width:26px;height:2px;background:var(--ink);margin:6px 0}
+#mnav{background:#fff;border-top:1px solid var(--line)}
+#mnav dl{margin:0;border-bottom:1px solid var(--line)}
+#mnav dt{padding:14px 20px;font-weight:700;background:var(--bg)}
+#mnav dd{margin:0}
+#mnav dd a{display:block;padding:10px 28px;font-size:15px;color:var(--body);border-top:1px solid #f0f0f0}
+
+/* main visual */
+.mv{position:relative;height:640px;overflow:hidden;background:#222}
+.mv .slide{position:absolute;inset:0;opacity:0;transition:opacity .9s ease;pointer-events:none;z-index:0}.mv .slide.on{pointer-events:auto;z-index:1}
+.mv .slide.on{opacity:1}
+.mv .slide .photo{position:absolute;inset:0}
+.mv .slide .photo::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,36,83,.78) 0%,rgba(4,36,83,.35) 60%,rgba(4,36,83,.1) 100%)}
+.mv .txt{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:center;color:#fff}
+.mv .txt .s1{font-size:18px;font-weight:500;color:#E9D3A8;margin-bottom:14px}
+.mv .txt h2{font-size:clamp(34px,4.6vw,56px);font-weight:700;line-height:1.3;letter-spacing:-.03em}
+.mv .txt p{font-size:18px;font-weight:300;margin-top:20px;color:rgba(255,255,255,.88);max-width:560px}
+.mv .txt .go{display:inline-block;margin-top:34px;border:1px solid rgba(255,255,255,.7);padding:12px 30px;font-size:15px;align-self:flex-start}
+.mv .txt .go:hover{background:#fff;color:var(--navy)}
+.mv-ctrl{position:absolute;z-index:3;left:0;right:0;bottom:56px}
+.mv-ctrl .inner{display:flex;align-items:center;gap:16px;color:#fff;font-size:15px}
+.mv-ctrl .cur{font-weight:700}
+.mv-ctrl .prog{width:160px;height:2px;background:rgba(255,255,255,.3);position:relative}
+.mv-ctrl .prog i{position:absolute;left:0;top:0;height:2px;background:#fff;width:0}
+.mv-ctrl button{background:none;border:1px solid rgba(255,255,255,.5);color:#fff;width:34px;height:34px;cursor:pointer;font-size:14px}
+
+/* common section */
+.sec{padding-block:100px}
+.tit{text-align:center;margin-bottom:50px}
+.tit h3{font-size:clamp(28px,3vw,38px);font-weight:700;color:var(--ink)}
+.tit p{margin-top:12px;color:var(--body);font-size:17px}
+.tit.left{text-align:left;display:flex;align-items:flex-end;justify-content:space-between;gap:20px}
+.more{font-size:14px;color:var(--body);border:1px solid var(--line);padding:6px 14px;white-space:nowrap}
+.more:hover{border-color:var(--blue);color:var(--blue)}
+
+/* business */
+.biz-list{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.biz-list a{display:block;border:1px solid var(--line);background:#fff;transition:border-color .2s}
+.biz-list a:hover{border-color:var(--blue)}
+.biz-list .photo{aspect-ratio:4/3;max-width:100%}
+.biz-list .cap{padding:24px 24px 28px}
+.biz-list .cap span{font-size:13px;color:var(--gold);font-weight:700}
+.biz-list h4{font-size:21px;font-weight:700;margin:4px 0 8px}
+.biz-list .cap p{font-size:15px;color:var(--body);min-height:48px}
+.biz-list .cap em{display:inline-block;margin-top:16px;font-style:normal;font-size:14px;color:var(--blue);font-weight:500}
+
+/* numbers band */
+.num-band{position:relative;color:#fff;padding-block:90px}
+.num-band .photo{position:absolute;inset:0}
+.num-band .photo::before{content:"";position:absolute;inset:0;background:rgba(4,36,83,.86)}
+.num-band .inner{position:relative;z-index:2}
+.num-band .tit h3{color:#fff}.num-band .tit p{color:rgba(255,255,255,.75)}
+.nums{display:grid;grid-template-columns:repeat(4,1fr);text-align:center}
+.nums li{padding:10px;border-left:1px solid rgba(255,255,255,.2)}
+.nums li:first-child{border-left:0}
+.nums b{display:block;font-size:clamp(40px,4.4vw,58px);font-weight:700;letter-spacing:-.02em;line-height:1.1;font-variant-numeric:tabular-nums}
+.nums b small{font-size:.45em;font-weight:500;margin-left:2px}
+.nums span{display:block;margin-top:10px;font-size:16px;color:rgba(255,255,255,.85)}
+.num-band .basis{text-align:right;margin-top:26px;font-size:13px;color:rgba(255,255,255,.55)}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.gal a{display:block}
+.gal .photo{aspect-ratio:4/3;max-width:100%}
+.gal .cat{display:block;margin-top:14px;font-size:13px;color:var(--blue);font-weight:700}
+.gal h4{font-size:17px;font-weight:500;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gal .date{font-size:13px;color:var(--mute);margin-top:4px}
+
+/* 3 column */
+.trio{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.box{border:1px solid var(--line);padding:30px;background:#fff;min-width:0}
+.box-h{display:flex;justify-content:space-between;align-items:center;padding-bottom:14px;border-bottom:2px solid var(--ink);margin-bottom:6px}
+.box-h h4{font-size:20px;font-weight:700}
+.box-h a{font-size:22px;color:var(--mute);line-height:1}
+.notice li{display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid #eee;font-size:15px}
+.notice li a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.notice li span{color:var(--mute);flex:0 0 auto;font-size:14px}
+.cert-mini{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.cert-mini div{border:1px solid var(--line);aspect-ratio:3/4;max-width:100%;display:flex;align-items:flex-end;justify-content:center;padding:10px;font-size:13px;text-align:center;color:var(--body);background:repeating-linear-gradient(0deg,#fafafa 0 10px,#f3f4f6 10px 11px)}
+.center{background:var(--blue);color:#fff;border-color:var(--blue)}
+.center .box-h{border-color:rgba(255,255,255,.6)}
+.center .tel{display:block;font-size:40px;font-weight:900;letter-spacing:0;margin-top:22px}
+.center dl{margin:14px 0 0;font-size:15px;color:rgba(255,255,255,.85)}
+.center dl div{display:flex;gap:14px;padding:4px 0}
+.center dt{width:110px;color:rgba(255,255,255,.6)}
+.center dd{margin:0}
+.center .btn{display:block;text-align:center;margin-top:26px;background:#fff;color:var(--blue);font-weight:700;padding:14px}
+
+/* partners */
+.partners{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:26px;overflow:hidden}
+.partners .inner{display:flex;align-items:center;gap:30px}
+.partners strong{flex:0 0 auto;font-size:15px}
+.p-track{display:flex;gap:16px;overflow:hidden;flex:1;min-width:0}
+.p-track span{flex:0 0 150px;height:54px;border:1px solid var(--line);display:grid;place-items:center;font-size:13px;color:var(--mute)}
+
+/* footer */
+#ft{background:var(--foot);color:#A9ADB5;font-size:14px;padding-block:44px 60px}
+#ft .links{display:flex;gap:24px;padding-bottom:20px;margin-bottom:24px;border-bottom:1px solid #3c4048;flex-wrap:wrap}
+#ft .links a{color:#fff}
+#ft .links a.pp{color:#E9C98C;font-weight:700}
+#ft .row{display:flex;gap:40px;align-items:flex-start}
+#ft .row img{height:40px;opacity:.85}
+#ft address{font-style:normal;line-height:1.9}
+#ft address span{display:inline-block;margin-right:14px}
+#ft address span::after{content:"";display:inline-block;width:1px;height:11px;background:#555;margin-left:14px;vertical-align:-1px}
+#ft address span:last-child::after{display:none}
+#ft .copy{margin-top:10px;color:#7d828c}
+.top-btn{position:fixed;right:24px;bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:90;width:52px;height:52px;background:var(--navy);color:#fff;border:0;font-size:12px;font-weight:700;cursor:pointer}
+.draft{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:90;background:#fff;border:1px solid var(--line);font-size:12px;color:var(--body);padding:6px 10px}
+
+/* sub pages */
+.sv{position:relative;height:300px;color:#fff}
+.sv .photo{position:absolute;inset:0}
+.sv .photo::before{content:"";position:absolute;inset:0;background:rgba(4,36,83,.62)}
+.sv .inner{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.sv h2{font-size:42px;font-weight:700}
+.sv p{margin-top:10px;font-size:16px;color:rgba(255,255,255,.8)}
+.lnb{border-bottom:1px solid var(--line);background:#fff}
+.lnb .inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.lnb .tabs{display:flex;flex-wrap:wrap}
+.lnb .tabs a{display:block;padding:20px 26px;font-size:16px;color:var(--body);border-bottom:3px solid transparent;margin-bottom:-1px}
+.lnb .tabs a.on{color:var(--blue);font-weight:700;border-color:var(--blue)}
+.loc{font-size:13px;color:var(--mute)}
+.page{padding-block:90px 110px}
+.page-tit{text-align:center;margin-bottom:56px}
+.page-tit h3{font-size:34px;font-weight:700}
+.page-tit p{margin-top:10px;color:var(--body)}
+.greet{display:grid;grid-template-columns:420px 1fr;gap:60px;align-items:start}
+.greet .photo{aspect-ratio:4/5;max-width:100%}
+.greet h4{font-size:28px;font-weight:700;line-height:1.45;margin-bottom:28px;color:var(--navy)}
+.greet .txt p{margin-bottom:18px;color:var(--body);font-size:17px;line-height:1.85}
+.sign{margin-top:36px;text-align:right;font-size:17px}
+.sign b{font-size:22px;margin-left:10px}
+.sign .sig{display:inline-block;width:120px;height:44px;border-bottom:1px solid var(--ink);vertical-align:bottom;margin-left:12px;font-size:11px;color:var(--mute);text-align:center}
+.tbl{width:100%;border-collapse:collapse;border-top:2px solid var(--ink);font-size:16px}
+.tbl th{width:200px;background:var(--bg);text-align:left;padding:18px 24px;border-bottom:1px solid var(--line);font-weight:500}
+.tbl td{padding:18px 24px;border-bottom:1px solid var(--line);color:var(--body)}
+.cert-full{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.cert-full li{text-align:center}
+.cert-full .frame{border:1px solid var(--line);padding:14px;background:#fff}
+.cert-full .paper{aspect-ratio:3/4;max-width:100%;background:repeating-linear-gradient(0deg,#fafafa 0 12px,#f2f3f5 12px 13px);display:grid;place-items:center;color:var(--mute);font-size:13px;border:1px solid #eee}
+.cert-full h4{margin-top:16px;font-size:17px;font-weight:700}
+.cert-full p{font-size:14px;color:var(--mute)}
+.map{height:420px;background:#E9ECEF;display:grid;place-items:center;color:var(--body);border:1px solid var(--line);margin-bottom:30px;text-align:center}
+.map a{display:inline-block;margin-top:12px;background:#03C75A;color:#fff;padding:10px 20px;font-weight:700;font-size:14px}
+.cons{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-bottom:70px}
+.cons .photo{aspect-ratio:4/3;max-width:100%}
+.cons h4{font-size:28px;font-weight:700;color:var(--navy);margin-bottom:16px;line-height:1.4}
+.cons p{color:var(--body);font-size:17px;line-height:1.85}
+.cons ul{margin-top:22px;border-top:1px solid var(--line)}
+.cons li{padding:12px 4px;border-bottom:1px solid var(--line);font-size:16px}
+.cons li b{color:var(--blue);margin-right:10px}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--line)}
+.steps li{padding:30px 20px;text-align:center;border-left:1px solid var(--line)}
+.steps li:first-child{border-left:0}
+.steps em{display:block;font-style:normal;font-size:14px;color:var(--gold);font-weight:700}
+.steps b{display:block;margin-top:6px;font-size:18px}
+.steps span{display:block;margin-top:4px;font-size:14px;color:var(--mute)}
+.h5{font-size:22px;font-weight:700;margin-bottom:18px}
+.svc-row{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;padding-block:44px;border-bottom:1px solid var(--line)}
+.svc-row:nth-child(even) .photo{order:2}
+.svc-row .photo{aspect-ratio:16/10;max-width:100%}
+.svc-row h4{font-size:26px;font-weight:700;color:var(--navy);margin-bottom:12px}
+.svc-row p{color:var(--body);font-size:16px}
+.svc-row .hl{margin-top:16px;padding:14px 18px;background:#FBF6EC;border-left:3px solid var(--gold);font-size:15px;font-weight:500;color:#6b4e1c}
+.filter{display:flex;justify-content:center;flex-wrap:wrap;gap:6px;margin-bottom:40px}
+.filter button{font:inherit;font-size:15px;padding:9px 22px;border:1px solid var(--line);background:#fff;color:var(--body);cursor:pointer}
+.filter button.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.board{width:100%;border-collapse:collapse;border-top:2px solid var(--ink);font-size:15px;margin-bottom:70px}
+.board th{padding:14px;border-bottom:1px solid var(--line);background:var(--bg);font-weight:500}
+.board td{padding:15px 14px;border-bottom:1px solid var(--line);text-align:center;color:var(--body)}
+.board td.t{text-align:left;color:var(--ink)}
+.form-tbl{width:100%;border-collapse:collapse;border-top:2px solid var(--ink)}
+.form-tbl th{width:180px;background:var(--bg);text-align:left;padding:14px 22px;border-bottom:1px solid var(--line);font-weight:500;font-size:15px}
+.form-tbl td{padding:12px 18px;border-bottom:1px solid var(--line)}
+.form-tbl input,.form-tbl select,.form-tbl textarea{font:inherit;font-size:15px;padding:10px 12px;border:1px solid #d5d5d5;width:100%;max-width:420px;background:#fff;color:var(--ink)}
+.form-tbl textarea{max-width:100%}
+.req{color:#d33}
+.agree-box{margin-top:24px;border:1px solid var(--line);padding:18px 22px;font-size:14px;color:var(--body);background:var(--bg)}
+.agree-box label{display:flex;gap:8px;align-items:center;margin-top:10px;color:var(--ink);font-weight:500}
+.form-btn{text-align:center;margin-top:34px}
+.form-btn button{font:inherit;font-size:17px;font-weight:700;background:var(--blue);color:#fff;border:0;padding:16px 64px;cursor:pointer}
+.form-msg{text-align:center;margin-top:16px;color:var(--blue);font-weight:500}
+
+[data-page]{display:none}
+[data-page].show{display:block}
+
+@media (max-width:1100px){
+  .gnb,.hd-tel{display:none}.m-btn{display:block}
+  #hd .bar{height:70px}#hd .logo img{height:40px}
+  .biz-list,.gal{grid-template-columns:1fr 1fr}
+  .trio{grid-template-columns:1fr}
+  .greet,.cons,.svc-row{grid-template-columns:1fr;gap:30px}
+  .svc-row:nth-child(even) .photo{order:0}
+  .cert-full{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}.steps li{border-left:0;border-top:1px solid var(--line)}
+}
+@media (max-width:640px){
+  .cert-mini{grid-template-columns:1fr 1fr!important}
+  .sec{padding-block:64px}.page{padding-block:56px 70px}
+  .mv{height:560px}.mv .txt{padding-bottom:70px}.mv .txt h2{font-size:30px}.mv .txt p{font-size:15px}.mv-ctrl{bottom:28px}.mv-ctrl .prog{width:90px}.draft{display:none}
+  .biz-list,.gal{grid-template-columns:1fr}
+  .nums{grid-template-columns:1fr 1fr;row-gap:30px}.nums li:nth-child(3){border-left:0}
+  .tit.left{flex-direction:column;align-items:flex-start}
+  .partners .inner{flex-direction:column;align-items:flex-start}
+  #ft .row{flex-direction:column;gap:16px}
+  .sv{height:200px}.sv h2{font-size:30px}
+  .lnb .tabs a{padding:14px 14px;font-size:15px}.loc{display:none}
+  .tbl th{width:110px;padding:14px}.tbl td{padding:14px}
+  .form-tbl th{width:100px;padding:12px}
+  .board .hide-m{display:none}
+  .top-btn{width:44px;height:44px;right:14px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.im-m1{background:url(/assets/img/493d83011f.jpg) center/cover no-repeat!important}
+.im-m2{background:url(/assets/img/6235502b55.jpg) center/cover no-repeat!important}
+.im-m3{background:url(/assets/img/35ad9da1e0.jpg) center/cover no-repeat!important}
+.im-c1{background:url(/assets/img/f0f9c64e47.jpg) center/cover no-repeat!important}
+.im-c2{background:url(/assets/img/cb6f600147.jpg) center/cover no-repeat!important}
+.im-c3{background:url(/assets/img/c8a6f18b10.jpg) center/cover no-repeat!important}
+.im-c4{background:url(/assets/img/f6bf013a3c.jpg) center/cover no-repeat!important}
+.im-m1,.im-m2,.im-m3,.im-c1,.im-c2,.im-c3,.im-c4{}
+.photo[class*="im-"]::after{display:none}
+.mv .slide .photo::before{background:linear-gradient(90deg,rgba(4,30,70,.55) 0%,rgba(4,30,70,.3) 45%,rgba(4,30,70,0) 75%)!important}
+.org{display:flex;flex-direction:column;align-items:center;padding:20px 0 10px}
+.org .ceo{background:var(--navy);color:#fff;font-size:20px;font-weight:700;padding:22px 70px;text-align:center}
+.org .ceo small{display:block;font-size:13px;font-weight:400;color:rgba(255,255,255,.7);margin-bottom:2px}
+.org .vline{width:2px;height:40px;background:#bbb}
+.org .teams{display:grid;grid-template-columns:repeat(3,220px);gap:40px;position:relative;padding-top:40px}
+.org .teams::before{content:"";position:absolute;top:0;left:110px;right:110px;height:2px;background:#bbb}
+.org .team{position:relative;border:2px solid var(--blue);color:var(--blue);background:#fff;text-align:center;padding:20px 10px;font-size:18px;font-weight:700}
+.org .team::before{content:"";position:absolute;top:-42px;left:50%;width:2px;height:40px;background:#bbb}
+@media (max-width:760px){.org .teams{grid-template-columns:1fr;gap:16px;padding-top:0}.org .teams::before,.org .team::before{display:none}.org .team{min-width:240px}}
+.im-ceo{background:url(/assets/img/1759fdf5ce.jpg) center top/cover no-repeat!important}
+.im-bld{background:url(/assets/img/59792f15eb.jpg) center bottom/cover no-repeat!important}
+.im-fib{background:url(/assets/img/a92b38e60e.jpg) center/cover no-repeat!important}
+.cert-img{display:block;width:100%;height:auto;border:1px solid var(--line);background:#fff}
+.cert-one{display:flex;gap:24px;align-items:center;margin-top:18px}
+.cert-one .pic{flex:0 0 140px;padding:8px;border:1px solid var(--line);background:#fff;box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.cert-one dl{margin:0;font-size:15px}.cert-one dt{font-size:18px;font-weight:700;color:var(--navy);margin-bottom:8px}.cert-one dd{margin:0;color:var(--body);line-height:1.9}
+.greet .photo.im-ceo{aspect-ratio:4/5}
+.greet .lead{font-size:15px;color:var(--gold);font-weight:700;margin-bottom:10px}
+.quote{margin:30px 0;padding:24px 28px;background:var(--bg);border-left:4px solid var(--blue)}
+.quote b{display:block;font-size:19px;color:var(--navy);margin-bottom:4px}
+.quote span{font-size:15px;color:var(--body)}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:70px}
+.values li{border-top:3px solid var(--navy);background:var(--bg);padding:30px 26px}
+.values em{font-style:normal;font-size:13px;font-weight:700;color:var(--gold)}
+.values b{display:block;font-size:20px;color:var(--navy);margin:8px 0 10px;line-height:1.45}
+.values p{font-size:15px;color:var(--body)}
+.org .teams{grid-template-columns:repeat(3,260px)}
+.org .teams::before{left:130px;right:130px}
+.org .team{padding:0;border:1px solid var(--line);color:var(--ink)}
+.org .team h4{background:var(--blue);color:#fff;padding:16px;font-size:18px}
+.org .team ul{padding:18px 20px;text-align:left;font-size:15px;font-weight:400;color:var(--body)}
+.org .team li{padding:4px 0 4px 12px;position:relative}.org .team li::before{content:"";position:absolute;left:0;top:14px;width:4px;height:4px;background:var(--gold)}
+.loc-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:24px;margin-bottom:30px}
+.loc-grid .photo{min-height:420px;background-position:center 15%!important}.loc-grid .map{margin:0}
+.cons-tit{text-align:center;margin-bottom:50px}.cons-tit h3{font-size:34px;font-weight:700}.cons-tit p{margin-top:10px;color:var(--body)}
+.cons .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}.cons .tags span{font-size:13px;border:1px solid var(--line);padding:4px 10px;color:var(--body)}
+.cons .scope{font-size:15px;font-weight:700;color:var(--ink);margin-top:24px}
+.privacy{border:1px solid var(--line);margin-top:24px}
+.privacy summary{cursor:pointer;padding:14px 20px;font-size:15px;font-weight:700;background:var(--bg);list-style:none;display:flex;justify-content:space-between}
+.privacy summary::-webkit-details-marker{display:none}.privacy summary::after{content:"펼치기 +";font-weight:400;color:var(--mute);font-size:14px}
+.privacy[open] summary::after{content:"접기 -"}
+.privacy table{width:100%;border-collapse:collapse;font-size:14px}.privacy th,.privacy td{border-top:1px solid var(--line);padding:10px 16px;text-align:left;color:var(--body)}.privacy th{width:150px;background:#fafafa;font-weight:500;color:var(--ink)}
+.privacy p{padding:12px 16px;font-size:13px;color:var(--mute);border-top:1px solid var(--line)}
+.agree-line{display:flex;gap:8px;align-items:center;margin-top:14px;font-weight:500}
+@media (max-width:1100px){.values{grid-template-columns:1fr}.loc-grid{grid-template-columns:1fr}.loc-grid .photo{min-height:320px}.org .teams{grid-template-columns:1fr}.org .teams::before,.org .team::before{display:none}}
+.im-k1{background:url(/assets/img/c166dd4991.jpg) center/cover no-repeat!important}
+.im-k2{background:url(/assets/img/c442193aae.jpg) center/cover no-repeat!important}
+.im-k3{background:url(/assets/img/a0a2c6a315.jpg) center/cover no-repeat!important}
+.im-k4{background:url(/assets/img/cb618bc5a3.jpg) center/cover no-repeat!important}
+.im-k5{background:url(/assets/img/13c07f9ca8.jpg) center/cover no-repeat!important}
+.im-g0{background:url(/assets/img/a6b2735cd5.jpg) center/cover no-repeat!important}
+.im-g1{background:url(/assets/img/e64c23970f.jpg) center/cover no-repeat!important}
+.im-g2{background:url(/assets/img/2c5f2fabd3.jpg) center/cover no-repeat!important}
+.im-g3{background:url(/assets/img/ebb2025529.jpg) center/cover no-repeat!important}
+.im-g4{background:url(/assets/img/7318229adb.jpg) center/cover no-repeat!important}
+.im-g5{background:url(/assets/img/dbd0dcf8fd.jpg) center/cover no-repeat!important}
+.im-g6{background:url(/assets/img/ec1c3eac39.jpg) center/cover no-repeat!important}
+.im-g7{background:url(/assets/img/4999d3ca74.jpg) center/cover no-repeat!important}
+
+.gnb>li{width:200px}
+.gnb .sub a{white-space:nowrap}
+.mega-bg{height:236px}
+.gal .loc{display:block;font-size:13px;color:var(--mute);margin-top:4px}
+.loc-grid .photo.im-bld{position:relative;min-height:440px;background-position:center 30%!important}
+.loc-grid .photo.im-bld::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,30,70,0) 45%,rgba(4,30,70,.85) 100%)}
+.bld-cap{position:absolute;left:28px;bottom:24px;color:#fff;z-index:2}
+.bld-cap small{display:block;font-size:13px;letter-spacing:.12em;color:#E9D3A8;font-weight:700}
+.bld-cap b{display:block;font-size:24px;margin-top:2px}
+.bld-cap span{display:block;font-size:14px;color:rgba(255,255,255,.85);margin-top:4px}
+.org{padding-top:30px}
+.org .ceo{font-size:24px;padding:28px 100px}
+.org .ceo small{font-size:14px}
+.org .vline{height:50px}
+.org .teams{grid-template-columns:repeat(3,340px)!important;gap:40px;padding-top:50px}
+.org .teams::before{left:170px!important;right:170px!important}
+.org .team::before{top:-52px;height:50px}
+.org .team h4{font-size:21px;padding:20px}
+.org .team ul{font-size:17px;padding:24px 28px}
+.org .team li{padding:6px 0 6px 14px}.org .team li::before{top:17px}
+.values li{padding:24px 24px}
+.values b{font-size:18px}
+@media (max-width:1100px){.org .teams{grid-template-columns:1fr!important}}
+.loc-grid{grid-template-columns:1.25fr 1fr!important}.loc-grid .photo.im-bld{min-height:450px;background-position:center top!important}
+
+.m-tel{display:none}
+.m-bar{display:none}
+@media (max-width:1100px){
+  .m-tel{display:inline-flex;align-items:center;margin-left:auto;margin-right:12px;padding:8px 12px;background:var(--blue);color:#fff;font-weight:700;font-size:15px;border-radius:4px;letter-spacing:0}
+  .m-tel::before{content:"☎";margin-right:6px;font-size:14px}
+}
+@media (max-width:640px){
+  .lnb .inner{padding-inline:0}
+  .lnb .tabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;width:100%;padding-inline:12px}
+  .lnb .tabs::-webkit-scrollbar{display:none}
+  .lnb .tabs a{flex:0 0 auto;white-space:nowrap;padding:15px 14px;font-size:15px}
+  .sv p{font-size:14px;padding-inline:10px}
+  .mv{height:520px}
+  .mv .slide .photo::before{background:linear-gradient(180deg,rgba(4,30,70,.35) 0%,rgba(4,30,70,.75) 100%)!important}
+  .mv .im-m1{background-image:url(/assets/img/ab550c24a4.jpg)!important;background-position:center!important}.mv .im-m2{background-image:url(/assets/img/c5461c19ba.jpg)!important;background-position:center!important}.mv .im-m3{background-image:url(/assets/img/816aecbb26.jpg)!important;background-position:center!important}
+  .m-bar{display:grid;grid-template-columns:1.4fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:95;padding-bottom:env(safe-area-inset-bottom,0px);background:#fff;box-shadow:0 -4px 14px rgba(0,0,0,.08)}
+  .m-bar a{display:flex;align-items:center;justify-content:center;height:56px;font-weight:700;font-size:15px;background:var(--navy);color:#fff}
+  .m-bar a.ask{background:var(--blue)}
+  .top-btn{bottom:calc(70px + env(safe-area-inset-bottom,0px))!important}
+  #ft{padding-bottom:90px}
+}
+
+#mnav:not([hidden]){max-height:calc(100vh - 70px);max-height:calc(100dvh - 70px);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding-bottom:80px}
+@media (max-width:1100px){
+  .steps li:nth-child(1),.steps li:nth-child(2){border-top:0}
+  .steps li:nth-child(even){border-left:1px solid var(--line)}
+  .steps li:last-child{grid-column:1/-1}
+}
+@media (max-width:640px){
+  .lnb .tabs{display:grid!important;grid-template-columns:1fr 1fr;overflow:visible;padding-inline:20px;column-gap:16px}
+  .lnb .tabs a{white-space:nowrap;padding:14px 4px;font-size:15px;text-align:left;border-bottom:1px solid var(--line);margin-bottom:0}
+  .lnb .tabs a.on{border-bottom:2px solid var(--blue)}
+}
+.loc-grid{grid-template-columns:1fr 1.25fr!important}
+.loc-grid .photo.im-bld{min-height:560px!important;background-position:center 35%!important}
+.loc-grid .map{min-height:560px}
+.policy{max-width:960px}
+.policy h4{font-size:18px;font-weight:700;color:var(--navy);margin:34px 0 10px}
+.policy p,.policy li{font-size:15px;color:var(--body);line-height:1.85}
+.policy ul{padding-left:4px}.policy li{position:relative;padding-left:14px}.policy li::before{content:"";position:absolute;left:0;top:13px;width:4px;height:4px;background:var(--gold)}
+.policy .tbl th{width:200px;font-size:14px}.policy .tbl td{font-size:14px}
+.form-tbl textarea::placeholder{color:#aaa;line-height:1.7}
+@media (max-width:1100px){.loc-grid .photo.im-bld,.loc-grid .map{min-height:420px!important}}
+@media (max-width:640px){.policy .tbl th{width:110px}}
+.ta-wrap{position:relative}
+.ta-wrap textarea{display:block;line-height:1.7;font-size:15px;padding:10px 12px}
+.ta-hint{position:absolute;left:13px;top:calc(10px + 1.7em * 4);font-size:15px;line-height:1.7;color:#aaa;pointer-events:none}
+.loc-grid{grid-template-columns:1fr 1.25fr!important}
+.loc-grid .photo.im-bld{min-height:0!important;aspect-ratio:1/1.08;background-position:center!important}
+.loc-grid .map{min-height:0!important}
+@media (max-width:1100px){.loc-grid .map{min-height:300px!important}}
+.loc-grid .photo.im-bld{min-height:520px!important;background-position:center bottom!important}.loc-grid .map{min-height:520px}
+.loc-grid{grid-template-columns:1fr 1fr!important;align-items:stretch}.loc-grid .photo.im-bld{min-height:500px!important;background-position:center 15%!important}.loc-grid .map{min-height:0!important;height:auto;display:grid;place-items:center}
+.map-live{position:relative;display:block!important;padding:0!important;min-height:500px;background:#E9ECEF}
+.map-live iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map-live .nv{position:absolute;right:12px;bottom:12px;z-index:2;margin:0!important;background:#03C75A;color:#fff;padding:9px 16px;font-weight:700;font-size:14px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+@media (max-width:1100px){.map-live{min-height:360px!important}}
+@media (max-width:640px){.filter{display:grid!important;grid-template-columns:1fr 1fr;gap:6px}.filter button{width:100%}.map-live{min-height:300px!important}}
+@media (max-width:1100px){.loc-grid{grid-template-columns:1fr!important}.loc-grid .photo.im-bld{min-height:420px!important}}
+.loc-grid .map.map-live{min-height:500px!important;height:100%}@media (max-width:1100px){.loc-grid .map.map-live{min-height:320px!important;height:320px}}
+.lang{display:flex;gap:2px;margin-left:18px;font-size:13px;font-weight:700}
+.lang a{padding:5px 9px;border:1px solid var(--line);color:var(--mute)}
+.lang a.on{background:var(--navy);border-color:var(--navy);color:#fff}
+@media (max-width:1100px){.lang{margin-left:auto;margin-right:8px}.lang a{padding:4px 7px;font-size:12px}.m-tel{margin-left:0!important}}
+@media (max-width:400px){.m-tel{font-size:13px!important;padding:7px 9px!important}}
+.lang-m{display:none!important}@media (max-width:1100px){.lang-m{display:flex!important}.bar>.lang:not(.lang-m){display:none}}
+.gnb>li>a{font-size:16px}.gnb .sub a{font-size:14px}.mv .txt h2{letter-spacing:-.01em}
+.hd-tag b{font-size:17px!important;color:var(--navy)!important;letter-spacing:-.01em}.hd-tag small{color:var(--gold)!important;font-weight:700}
+#hd .logo img{height:40px}
+.center .tagline{font-size:28px;font-weight:700;line-height:1.3;margin-top:22px}
+.center .tagsub{font-size:15px;color:rgba(255,255,255,.8);margin-top:12px;line-height:1.7}
+@media (max-width:640px){.top-btn{bottom:calc(20px + env(safe-area-inset-bottom,0px))!important}#ft{padding-bottom:40px!important}#hd .logo img{height:30px}}
+.hd-tag{white-space:nowrap}.hd-tag b{font-size:15px!important}.map-live .nv{background:#1a73e8!important}
+#hd .logo{flex:0 0 auto}
+#hd .logo img{height:40px!important;width:auto!important;max-width:none!important}
+.bar>.lang{margin-right:20px}
+.hd-tag{flex:0 0 auto}
+@media (max-width:640px){#hd .logo img{height:30px!important}}
+#hd .bar{gap:16px}
+.gnb{flex:1 1 auto;justify-content:center;min-width:0}
+.gnb>li{width:auto!important;padding:0 clamp(10px,2.2vw,40px)}
+.hd-tel{flex:0 0 auto;white-space:nowrap}
+.bar>.lang{flex:0 0 auto;margin-left:0}
+.gnb>li>a{white-space:nowrap}@media (max-width:1320px){.gnb>li{padding:0 12px}.gnb>li>a{font-size:15px}.hd-tag b{font-size:13px!important}}
+.gnb>li{position:relative}
+.gnb .sub{position:absolute;left:50%;top:100%;transform:translateX(-50%);white-space:nowrap;text-align:center}
+@media (max-width:1180px){.gnb>li{padding:0 9px}.gnb>li>a{font-size:14.5px}#hd .bar{gap:12px}}
+.gnb .sub{display:block!important;position:static!important;transform:none!important;visibility:hidden;height:0;overflow:hidden;padding:0!important}
+#hd.open .gnb .sub{visibility:visible;height:auto;overflow:visible;padding:18px 0 22px!important}
+.gnb>li{padding:0 clamp(8px,1.6vw,30px)!important}
+@media (max-width:1300px){.gnb .sub a{font-size:13.5px}}
+@media (max-width:1260px){.hd-tag{display:none!important}}
+.bar>.lang{margin-left:28px!important}
+.draft{display:none!important}
+#ft .row{align-items:flex-start}
+#ft .row>img{height:52px!important;width:auto;margin-top:4px;opacity:.9}
+.fab-tel{width:68px!important;padding:12px 0!important;right:24px!important;bottom:calc(104px + env(safe-area-inset-bottom,0px))!important}
+.top-btn{width:68px!important;height:68px!important;font-size:13px!important;right:24px!important}
+@media (max-width:640px){.top-btn{width:46px!important;height:46px!important;right:14px!important}}
+
+@media (max-width:640px){#hd .bar{gap:8px!important}.m-tel{white-space:nowrap;font-size:13px!important;padding:7px 9px!important;margin-right:4px!important}.m-tel::before{margin-right:4px!important}.lang-m a{padding:4px 6px!important;font-size:11px!important}#hd .logo img{height:32px!important}}
+.bar>.lang.lang-m{margin-left:auto!important;margin-right:8px}
+.org{display:block!important}
+.org .ceo{display:block;width:280px;margin:0 auto}
+.org .vline{margin:0 auto}
+.org .teams{grid-template-columns:repeat(3,1fr)!important;gap:24px!important;width:100%}
+.org .teams::before{left:16.66%!important;right:16.66%!important}
+@media (max-width:1100px){.org .teams{grid-template-columns:1fr!important}}
+
+.gnb{flex:0 0 auto!important}
+@media (max-width:1320px){
+  .gnb,.bar>.hd-tel,.bar>.lang:not(.lang-m){display:none!important}
+  .m-btn{display:block!important}
+  .lang-m{display:flex!important;margin-left:auto}
+  #hd .bar{height:70px}
+  #hd .mega-bg{display:none!important}
+}
+</style>
+
+<header id="hd">
+  <div class="inner bar">
+    <a class="logo" href="/en" aria-label="DORICOM home"><img src="/assets/img/ad4e9a2de2.png" alt="DORICOM"></a>
+    <ul class="gnb" id="gnb">
+      <li><a href="/en/company/greeting" data-m="about">About Us</a><div class="sub"><a href="/en/company/greeting">CEO Message</a><a href="/en/company/overview">Company Overview</a><a href="/en/company/organization">Organization</a><a href="/en/company/location">Location</a></div></li>
+      <li><a href="/en/construction/cabling" data-m="cons">ICT Construction</a><div class="sub"><a href="/en/construction/cabling">Structured Cabling</a><a href="/en/construction/fiber">Fiber Optic Installation</a><a href="/en/construction/network">Network Build & Maintenance</a><a href="/en/construction/wifi">Wi-Fi Installation</a><a href="/en/construction/cctv">CCTV & Security Works</a></div></li>
+      <li><a href="/en/service" data-m="svc">Telecom & Security</a><div class="sub"><a href="/en/service">Internet, Phone & IPTV</a><a href="/en/service">CCTV & Security</a><a href="/en/service">Store Solutions</a></div></li>
+      <li><a href="/en/projects" data-m="cases">Projects</a><div class="sub"><a href="/en/projects">Projects</a></div></li>
+      
+    </ul>
+    <div class="lang"><a href="/">KOR</a><a class="on" href="/en">ENG</a></div><div class="hd-tel hd-tag"><small>DORICOM Co., Ltd.</small><b>Korea's ICT &amp; Telecom Specialist</b></div>
+    <div class="lang lang-m"><a href="/">KOR</a><a class="on" href="/en">ENG</a></div><button class="m-btn" id="mBtn" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mega-bg"></div>
+  <nav id="mnav" hidden>
+    <dl><dt>About Us</dt><dd><a href="/en/company/greeting">CEO Message</a><a href="/en/company/overview">Company Overview</a><a href="/en/company/organization">Organization</a><a href="/en/company/location">Location</a></dd></dl>
+    <dl><dt>ICT Construction</dt><dd><a href="/en/construction/cabling">Structured Cabling</a><a href="/en/construction/fiber">Fiber Optic Installation</a><a href="/en/construction/network">Network Build & Maintenance</a><a href="/en/construction/wifi">Wi-Fi Installation</a><a href="/en/construction/cctv">CCTV & Security Works</a></dd></dl>
+    <dl><dt>Telecom & Security</dt><dd><a href="/en/service">Services</a></dd></dl>
+    <dl><dt>Projects</dt><dd><a href="/en/projects">Projects</a></dd></dl>
+    
+  </nav>
+</header>
+
+<main>
+<!-- ===== MAIN ===== -->
+<div data-page="home">
+  <section class="mv" aria-label="Main visual">
+    <div class="slide on"><div class="photo im-m3"></div>
+      <div class="inner txt"><div class="s1">Telecom, Security & Construction</div><h2>All your telecom needs,<br>in one place</h2><p>We manage ICT construction, internet and CCTV & security as an all-in-one service.</p><a class="go" href="/en/company/greeting">About DORICOM</a></div></div>
+    <div class="slide"><div class="photo im-m1"></div>
+      <div class="inner txt"><div class="s1">ICT Construction Specialist</div><h2>From design to installation and maintenance,<br>we take care of your network</h2><p>Our engineers, with over 25 years of field experience, build telecom infrastructure for offices, hospitals, stores and public institutions.</p><a class="go" href="/en/construction/cabling">Our Construction Services</a></div></div>
+    <div class="slide"><div class="photo im-m2"></div>
+      <div class="inner txt"><div class="s1">CCTV & Security Solutions</div><h2>CCTV and security,<br>all in one consultation</h2><p>Alarm monitoring, access control and parking management, designed and installed for your site.</p><a class="go" href="/en/service">Services</a></div></div>
+    <div class="mv-ctrl"><div class="inner"><span class="cur" id="mvCur">01</span><div class="prog"><i id="mvBar"></i></div><span>03</span><button id="mvPrev" aria-label="Previous">&lt;</button><button id="mvNext" aria-label="Next">&gt;</button></div></div>
+  </section>
+
+  <section class="sec">
+    <div class="inner">
+      <div class="tit"><h3>Business Areas</h3><p>Centered on ICT construction, DORICOM also provides telecom, security and store solutions.</p></div>
+      <div class="biz-list">
+        <a href="/en/construction/cabling"><div class="photo im-c1"></div><div class="cap"><span>CONSTRUCTION</span><h4>ICT Construction</h4><p>Cabling, fiber optics, networks, Wi-Fi and CCTV works</p><em>Learn more +</em></div></a>
+        <a href="/en/service"><div class="photo im-c2"></div><div class="cap"><span>SECURITY</span><h4>CCTV & Security</h4><p>CCTV, alarm monitoring, access control, parking</p><em>Learn more +</em></div></a>
+        <a href="/en/service"><div class="photo im-c3"></div><div class="cap"><span>NETWORK</span><h4>Internet, Phone & IPTV</h4><p>Telecom plans tailored to businesses and stores</p><em>Learn more +</em></div></a>
+        <a href="/en/service"><div class="photo im-c4"></div><div class="cap"><span>STORE</span><h4>Store Solutions</h4><p>Kiosks, table ordering and POS systems</p><em>Learn more +</em></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="num-band" aria-label="DORICOM in Numbers">
+    <div class="photo im-m3"></div>
+    <div class="inner">
+      <div class="tit"><h3>DORICOM in Numbers</h3><p>Field-proven experience behind every project.</p></div>
+      <ul class="nums">
+        <li><b>25<small>yrs+</small></b><span>Engineering experience</span></li>
+        <li><b>300<small>+</small></b><span>Clients served</span></li>
+        <li><b>470<small>+</small></b><span>Projects & installations</span></li>
+        <li><b>7<small>+</small></b><span>Key partners</span></li>
+      </ul>
+      <p class="basis">As of October 2026</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="inner">
+      <div class="tit left"><div style="text-align:left"><h3>Projects</h3><p>Sites built by DORICOM.</p></div><a class="more" href="/en/projects">More +</a></div>
+      <div class="gal">
+        <a href="/en/projects"><div class="photo im-g0"></div><span class="cat">Hospital</span><h4>Nursing hospital network & CCTV</h4><p class="loc">Busan | Telecom room rack setup, network cabling</p></a><a href="/en/projects"><div class="photo im-g1"></div><span class="cat">Office</span><h4>Office LAN cabling & rack setup</h4><p class="loc">Changwon | Office relocation cabling, network equipment</p></a><a href="/en/projects"><div class="photo im-g2"></div><span class="cat">Factory</span><h4>New factory Wi-Fi zone</h4><p class="loc">Gimhae | Conduit work, AP installation</p></a><a href="/en/projects"><div class="photo im-g3"></div><span class="cat">Hospital</span><h4>Women's hospital telecom room</h4><p class="loc">Yangsan | Fiber distribution, network equipment, racks</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" style="background:var(--bg)">
+    <div class="inner trio">
+      <div class="box"><div class="box-h"><h4>License</h4></div>
+        <div class="cert-one"><div class="pic"><img class="cert-img" src="/assets/img/2c42689051.jpg" alt="ICT Construction Business License"></div>
+        <dl><dt>ICT Construction Business License</dt><dd>Registration No. 510793<br>Registered with Busan Metropolitan City, Republic of Korea<br>Information and Communications Construction Business Act, Art. 14</dd></dl></div></div>
+      <div class="box center"><div class="box-h"><h4>DORICOM</h4></div>
+        <p class="tagline">Korea's ICT &amp; Telecom Specialist</p>
+        <p class="tagsub">ICT construction, networks, CCTV &amp; security and telecom services for businesses, hospitals, stores and public institutions in Korea.</p>
+        <a class="btn" href="/en/company/location">Location</a></div>
+    </div>
+  </section>
+
+  </div>
+</div>
+
+<!-- ===== SUB: 회사소개 ===== -->
+<div data-page="greeting overview org location">
+  <section class="sv"><div class="photo im-m3"></div><div class="inner"><h2>About Us</h2><p>An ICT construction company you can rely on</p></div></section>
+  <div class="lnb"><div class="inner"><div class="tabs"><a href="/en/company/greeting" data-t="greeting">CEO Message</a><a href="/en/company/overview" data-t="overview">Company Overview</a><a href="/en/company/organization" data-t="org">Organization</a><a href="/en/company/location" data-t="location">Location</a></div><div class="loc" id="loc1">HOME &gt; About Us</div></div></div>
+
+  <section class="page" data-sub="greeting"><div class="inner">
+    <div class="page-tit"><h3>CEO Message</h3></div>
+    <div class="greet">
+      <div class="photo im-ceo"></div>
+      <div class="txt">
+        <div class="lead">CEO MESSAGE</div>
+        <h4>Every installation should earn lifelong trust,<br>down to the parts you never see.</h4>
+        <p>Hello, I am Seungah Shin, CEO of DORICOM Co., Ltd.<br>Thank you for visiting our website.</p>
+        <p>Telecommunications have become the foundation of every business. When a single line or cable fails, office work, hospital care and store sales all stop with it. At DORICOM, we take pride in making sure these essentials always simply work.</p>
+        <p>Built around ICT construction, DORICOM handles everything from network installation and maintenance to CCTV and security, internet, phone, IPTV and store solutions. Instead of dealing with several vendors, our clients work with one team from consultation and design through installation and after-service.</p>
+        <p>Every industry has different needs. Hospitals need uninterrupted stability, stores need fast installation around business hours, and companies and public institutions need systematic management. Through the KNN Future Industry Leaders Forum and the Advanced Healthcare Management Program at Pusan National University School of Medicine, I continue to learn what each industry truly needs, because we believe the right network starts with understanding our clients' work.</p>
+        <div class="quote"><b>Careful, thorough workmanship</b><span>We work meticulously from the start, so after-service is rarely needed.</span></div>
+        <p>Our engineers, with over 25 years in the field, install every cable to standard, even inside the ceiling. For us, good work means preventing problems rather than fixing them later.</p>
+        <p>After installation, we stay close with fast response and friendly service. Our goal is to turn every project into a long-term partnership.</p>
+        <p>DORICOM will keep growing as an ICT specialist that understands each client's industry and can be trusted with their infrastructure. Thank you for your continued support.</p>
+        <p>Thank you.</p>
+        <div class="sign">CEO, DORICOM Co., Ltd. <b>Seungah Shin</b></div>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="page" data-sub="overview"><div class="inner">
+    <div class="page-tit"><h3>Company Overview</h3></div>
+    <table class="tbl"><tbody>
+      <tr><th>Company</th><td>DORICOM Co., Ltd.</td></tr>
+      <tr><th>CEO</th><td>Seungah Shin</td></tr>
+      <tr><th>Business Reg. No.</th><td>226-88-00798</td></tr>
+      <tr><th>Business</th><td>ICT construction, network installation & maintenance, CCTV & security, internet, phone, IPTV, store solutions</td></tr>
+      <tr><th>License</th><td>Registered ICT Construction Business (No. 510793)</td></tr>
+      <tr><th>Memberships</th><td>Information & Communication Financial Cooperative, International Industrial Security Information Association (IISIA), Korean Women Entrepreneurs Association</td></tr>
+      <tr><th>Address</th><td>Room 301, 20 Gwangjang-ro, Sasang-gu, Busan, Republic of Korea</td></tr>
+    </tbody></table>
+  </div></section>
+
+  <section class="page" data-sub="org"><div class="inner">
+    <div class="page-tit"><h3>Organization</h3><p>Specialists in every field work as one team for our clients.</p></div>
+    <ul class="values">
+      <li><em>PROMISE 01</em><b>Every installation<br>earns lifelong trust</b><p>We take responsibility for every cable, including those inside ceilings and walls.</p></li>
+      <li><em>PROMISE 02</em><b>Careful,<br>thorough work</b><p>Our principle is to do it right the first time, so after-service is rarely needed.</p></li>
+      <li><em>PROMISE 03</em><b>Fast response,<br>friendly service</b><p>We respond quickly after installation and stay a long-term partner.</p></li>
+    </ul>
+    <div class="org"><div class="ceo"><small>CEO</small>CEO</div><div class="vline"></div>
+      <div class="teams">
+        <div class="team"><h4>Technical Support</h4><ul><li>ICT design, construction, quotes</li><li>Network installation, maintenance</li><li>CCTV & security installation</li></ul></div>
+        <div class="team"><h4>Customer Support</h4><ul><li>Consultation</li><li>Telecom subscriptions, activation</li><li>After-service, follow-up</li></ul></div>
+        <div class="team"><h4>Management Support</h4><ul><li>Contracts, billing</li><li>HR, general affairs</li><li>Partner management</li></ul></div>
+      </div></div>
+  </div></section>
+
+  <section class="page" data-sub="location"><div class="inner">
+    <div class="page-tit"><h3>Location</h3></div>
+    <div class="loc-grid"><div class="photo im-bld"><div class="bld-cap"><small>DORICOM</small><b>DORICOM Head Office</b></div></div><div class="map map-live" style="margin:0"><iframe title="DORICOM location map" src="https://maps.google.com/maps?q=20%20Gwangjang-ro%2C%20Sasang-gu%2C%20Busan&amp;z=17&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><a class="nv" href="https://maps.google.com/?q=20+Gwangjang-ro+Sasang-gu+Busan" target="_blank" rel="noopener">Open in Google Maps</a></div></div>
+    <table class="tbl"><tbody>
+      <tr><th>Address</th><td>Room 301, 20 Gwangjang-ro, Sasang-gu, Busan, Republic of Korea</td></tr>
+    </tbody></table>
+  </div></section>
+</div>
+
+<!-- ===== SUB: 정보통신공사 ===== -->
+<div data-page="construction cons1 cons2 cons3 cons4 cons5">
+  <section class="sv"><div class="photo im-m1"></div><div class="inner"><h2>ICT Construction</h2><p>Designed and built by ICT construction specialists</p></div></section>
+  <div class="lnb"><div class="inner"><div class="tabs"><a href="/en/construction/cabling" data-t="cons1">Structured Cabling</a><a href="/en/construction/fiber" data-t="cons2">Fiber Optic Installation</a><a href="/en/construction/network" data-t="cons3">Network Build & Maintenance</a><a href="/en/construction/wifi" data-t="cons4">Wi-Fi Installation</a><a href="/en/construction/cctv" data-t="cons5">CCTV & Security Works</a></div><div class="loc">HOME &gt; ICT Construction</div></div></div>
+<section class="page" data-sub="cons1"><div class="inner">
+    <div class="cons"><div class="photo im-k1"></div>
+      <div><h4>Structured Cabling</h4><p>We design and neatly install cabling so data and voice run reliably throughout your building, for relocations, renovations and new move-ins.</p><div class="scope">Scope of work</div><ul><li><b>01</b>New and additional LAN (UTP) cabling</li><li><b>02</b>Telephone cabling</li><li><b>03</b>Cable trays and conduits</li><li><b>04</b>Telecom cabinet organization</li></ul>
+      <div class="tags"><span>Office</span><span>Hospital</span><span>Store</span><span>Public sector</span></div></div></div>
+    <h5 class="h5">Project process</h5>
+    <ul class="steps"><li><em>STEP 01</em><b>Inquiry</b><span>By phone</span></li><li><em>STEP 02</em><b>Site survey</b><span>Space & equipment check</span></li><li><em>STEP 03</em><b>Design & quote</b><span>Only what you need</span></li><li><em>STEP 04</em><b>Installation</b><span>On your schedule</span></li><li><em>STEP 05</em><b>Inspection & support</b><span>Checks and troubleshooting</span></li></ul>
+  </div></section>
+<section class="page" data-sub="cons2"><div class="inner">
+    <div class="cons"><div class="photo im-k2"></div>
+      <div><h4>Fiber Optic Installation</h4><p>We install and splice fiber optic cables for high-capacity links between buildings and floors.</p><div class="scope">Scope of work</div><ul><li><b>01</b>Inter-building and inter-floor fiber</li><li><b>02</b>Fiber splicing</li><li><b>03</b>Fiber distribution boxes</li><li><b>04</b>Line testing</li></ul>
+      <div class="tags"><span>Business</span><span>Public sector</span><span>Hospital</span></div></div></div>
+    <h5 class="h5">Project process</h5>
+    <ul class="steps"><li><em>STEP 01</em><b>Inquiry</b><span>By phone</span></li><li><em>STEP 02</em><b>Site survey</b><span>Space & equipment check</span></li><li><em>STEP 03</em><b>Design & quote</b><span>Only what you need</span></li><li><em>STEP 04</em><b>Installation</b><span>On your schedule</span></li><li><em>STEP 05</em><b>Inspection & support</b><span>Checks and troubleshooting</span></li></ul>
+  </div></section>
+<section class="page" data-sub="cons3"><div class="inner">
+    <div class="cons"><div class="photo im-k3"></div>
+      <div><h4>Network Build & Maintenance</h4><p>We install switches, routers and server racks, and keep them running reliably.</p><div class="scope">Scope of work</div><ul><li><b>01</b>Switch and router installation</li><li><b>02</b>Server rack installation</li><li><b>03</b>Network configuration, troubleshooting</li><li><b>04</b>Regular checks, equipment replacement</li></ul>
+      <div class="tags"><span>Office</span><span>Hospital</span><span>Public sector</span></div></div></div>
+    <h5 class="h5">Project process</h5>
+    <ul class="steps"><li><em>STEP 01</em><b>Inquiry</b><span>By phone</span></li><li><em>STEP 02</em><b>Site survey</b><span>Space & equipment check</span></li><li><em>STEP 03</em><b>Design & quote</b><span>Only what you need</span></li><li><em>STEP 04</em><b>Installation</b><span>On your schedule</span></li><li><em>STEP 05</em><b>Inspection & support</b><span>Checks and troubleshooting</span></li></ul>
+  </div></section>
+<section class="page" data-sub="cons4"><div class="inner">
+    <div class="cons"><div class="photo im-k4"></div>
+      <div><h4>Wi-Fi Installation</h4><p>We survey your site and build stable Wi-Fi coverage with no dead zones.</p><div class="scope">Scope of work</div><ul><li><b>01</b>Site signal survey</li><li><b>02</b>AP placement and installation</li><li><b>03</b>Separate staff and guest Wi-Fi</li><li><b>04</b>Wireless checks</li></ul>
+      <div class="tags"><span>Office</span><span>Store</span><span>Hospital</span></div></div></div>
+    <h5 class="h5">Project process</h5>
+    <ul class="steps"><li><em>STEP 01</em><b>Inquiry</b><span>By phone</span></li><li><em>STEP 02</em><b>Site survey</b><span>Space & equipment check</span></li><li><em>STEP 03</em><b>Design & quote</b><span>Only what you need</span></li><li><em>STEP 04</em><b>Installation</b><span>On your schedule</span></li><li><em>STEP 05</em><b>Inspection & support</b><span>Checks and troubleshooting</span></li></ul>
+  </div></section>
+<section class="page" data-sub="cons5"><div class="inner">
+    <div class="cons"><div class="photo im-k5"></div>
+      <div><h4>CCTV & Security Works</h4><p>We install CCTV and access control suited to your site, with remote monitoring set up.</p><div class="scope">Scope of work</div><ul><li><b>01</b>Indoor and outdoor CCTV</li><li><b>02</b>Recorders and remote monitoring</li><li><b>03</b>Access control systems</li><li><b>04</b>Parking management integration</li></ul>
+      <div class="tags"><span>Store</span><span>Hospital</span><span>Office</span><span>Public sector</span></div></div></div>
+    <h5 class="h5">Project process</h5>
+    <ul class="steps"><li><em>STEP 01</em><b>Inquiry</b><span>By phone</span></li><li><em>STEP 02</em><b>Site survey</b><span>Space & equipment check</span></li><li><em>STEP 03</em><b>Design & quote</b><span>Only what you need</span></li><li><em>STEP 04</em><b>Installation</b><span>On your schedule</span></li><li><em>STEP 05</em><b>Inspection & support</b><span>Checks and troubleshooting</span></li></ul>
+  </div></section>
+</div>
+
+<!-- ===== SUB: 서비스 ===== -->
+<div data-page="service">
+  <section class="sv"><div class="photo im-m2"></div><div class="inner"><h2>Telecom & Security</h2><p>Telecom and security services tailored to your business</p></div></section>
+  <div class="lnb"><div class="inner"><div class="tabs"><a href="/en/service" class="on">Services</a></div><div class="loc">HOME &gt; Telecom & Security</div></div></div>
+  <section class="page" style="padding-top:40px"><div class="inner">
+    <div class="svc-row"><div class="photo im-c3"></div><div><h4>Internet, Phone & IPTV</h4><p>We design internet, VoIP, representative numbers and IPTV around your headcount, industry and space, and review your current plans to cut unnecessary costs.</p></div></div>
+    <div class="svc-row"><div class="photo im-c2"></div><div><h4>CCTV & Security</h4><p>From alarm monitoring and access control to parking management and cybersecurity, we design and install security that fits your space. CCTV is installed at a reasonable cost with remote viewing.</p></div></div>
+    <div class="svc-row"><div class="photo im-c4"></div><div><h4>Store Solutions</h4><p>We help restaurants and cafes introduce or replace kiosks, table ordering and POS systems. Preparing them together with internet and CCTV makes opening much easier.</p></div></div>
+  </div></section>
+</div>
+
+<!-- ===== SUB: 시공실적 ===== -->
+<div data-page="cases">
+  <section class="sv"><div class="photo im-m1"></div><div class="inner"><h2>Projects</h2><p>Projects across Korea</p></div></section>
+  <div class="lnb"><div class="inner"><div class="tabs"><a href="/en/projects" class="on">Projects</a></div><div class="loc">HOME &gt; Projects</div></div></div>
+  <section class="page"><div class="inner">
+    <div class="filter" id="filter"><button class="on" data-f="all">All</button><button data-f="hos">Hospital</button><button data-f="off">Office</button><button data-f="fac">Factory</button></div>
+    <div class="gal" id="gal">
+      <a data-c="hos"><div class="photo im-g0"></div><span class="cat">Hospital</span><h4>Nursing hospital network & CCTV</h4><p class="loc">Busan | Telecom room rack setup, network cabling</p></a>
+      <a data-c="off"><div class="photo im-g1"></div><span class="cat">Office</span><h4>Office LAN cabling & rack setup</h4><p class="loc">Changwon | Office relocation cabling, network equipment</p></a>
+      <a data-c="fac"><div class="photo im-g2"></div><span class="cat">Factory</span><h4>New factory Wi-Fi zone</h4><p class="loc">Gimhae | Conduit work, AP installation</p></a>
+      <a data-c="hos"><div class="photo im-g3"></div><span class="cat">Hospital</span><h4>Women's hospital telecom room</h4><p class="loc">Yangsan | Fiber distribution, network equipment, racks</p></a>
+      <a data-c="hos"><div class="photo im-g4"></div><span class="cat">Hospital</span><h4>Hospital network equipment upgrade</h4><p class="loc">Ulsan | Patch panels, equipment replacement</p></a>
+      <a data-c="fac"><div class="photo im-g5"></div><span class="cat">Factory</span><h4>New factory telecom conduit work</h4><p class="loc">Gimhae | Wall conduits, outlets</p></a>
+      <a data-c="off"><div class="photo im-g6"></div><span class="cat">Office</span><h4>Office telecom cabinet setup</h4><p class="loc">Changwon | Cabinet, router and switch installation</p></a>
+      <a data-c="hos"><div class="photo im-g7"></div><span class="cat">Hospital</span><h4>Women's hospital network cabling</h4><p class="loc">Yangsan | Floor-by-floor cabling, racks</p></a>
+    </div>
+  </div></section>
+</div>
+
+<!-- ===== SUB: 고객센터 ===== -->
+
+<!-- ===== 개인정보처리방침 ===== -->
+<div data-page="privacy noemail">
+  <section class="sv"><div class="photo im-m3"></div><div class="inner"><h2>Privacy</h2><p>We are committed to protecting your privacy</p></div></section>
+  <div class="lnb"><div class="inner"><div class="tabs"><a href="/en/privacy" data-t="privacy">Privacy Policy</a><a href="/en/email-policy" data-t="noemail">Email Collection Refusal</a></div><div class="loc">HOME &gt; Privacy</div></div></div>
+  <section class="page" data-sub="privacy"><div class="inner policy">
+    <div class="page-tit"><h3>Privacy Policy</h3></div>
+    <p>DORICOM Co., Ltd. ("the Company") protects personal information in accordance with the Personal Information Protection Act of Korea.</p>
+    <h4>1. Collection through this website</h4>
+    <p>This website is for company information only. It does not collect any personal information through membership, online forms or cookies.</p>
+    <h4>2. Phone inquiries</h4>
+    <p>Contact details you provide during a phone inquiry are used only for consultation, site surveys and quotations, and are destroyed without delay once the purpose is fulfilled. They are not provided to third parties except with your consent or as required by law.</p>
+    <h4>3. Your rights</h4>
+    <p>You may request access to, correction, deletion or suspension of processing of your personal information at any time by contacting the officer below.</p>
+    <h4>4. Privacy officer</h4>
+    <table class="tbl" style="margin:12px 0 6px"><tbody><tr><th>Privacy officer</th><td>Seungah Shin (CEO)</td></tr><tr><th>Fax</th><td>+82-51-962-3535</td></tr></tbody></table>
+    <h4>5. Effective date</h4>
+    <p>This policy is effective from October 23, 2026. The Korean version prevails in case of any discrepancy.</p>
+  </div></section>
+  <section class="page" data-sub="noemail"><div class="inner policy">
+    <div class="page-tit"><h3>Email Collection Refusal</h3></div>
+    <p>We refuse the unauthorized collection of email addresses posted on this website by email harvesting programs or other technical means. Violations may be punished under the Act on Promotion of Information and Communications Network Utilization and Information Protection of Korea.</p>
+    <p style="margin-top:14px;color:var(--mute)">Posted: October 23, 2026</p>
+  </div></section>
+</div>
+</main>
+
+<footer id="ft">
+  <div class="inner">
+    <div class="links"><a class="pp" href="/en/privacy">Privacy Policy</a><a href="/en/email-policy">Email Collection Refusal</a><a href="/en/company/location">Location</a></div>
+    <div class="row"><img src="/assets/img/e6cb90acc9.png" alt="DORICOM">
+      <div><address><span>DORICOM Co., Ltd.</span><span>CEO : Seungah Shin</span><span>Business Reg. No. : 226-88-00798</span><span>ICT Construction License : No. 510793</span><br><span>Address : Room 301, 20 Gwangjang-ro, Sasang-gu, Busan, Republic of Korea</span><span>Tel : 1566-8595 (within Korea)</span><span>Fax : +82-51-962-3535</span></address>
+      <p class="copy">COPYRIGHT © DORICOM Co., Ltd. ALL RIGHTS RESERVED.</p></div></div>
+  </div>
+</footer>
+<button class="top-btn" id="topBtn" aria-label="Back to top">TOP</button>
+
+
+<script>
+(function(){
+  var hd=document.getElementById('hd'),gnb=document.getElementById('gnb');
+  gnb.addEventListener('mouseenter',function(){hd.classList.add('open')});
+  hd.addEventListener('mouseleave',function(){hd.classList.remove('open')});
+  gnb.addEventListener('focusin',function(){hd.classList.add('open')});
+  var mb=document.getElementById('mBtn'),mn=document.getElementById('mnav');
+  mb.addEventListener('click',function(){mn.hidden=!mn.hidden;mb.setAttribute('aria-expanded',String(!mn.hidden))});
+
+
+  var BASE=document.documentElement.getAttribute('data-base')||'';
+  var R={"home": "/", "greeting": "/company/greeting", "overview": "/company/overview", "org": "/company/organization", "location": "/company/location", "cons1": "/construction/cabling", "cons2": "/construction/fiber", "cons3": "/construction/network", "cons4": "/construction/wifi", "cons5": "/construction/cctv", "construction": "/construction/cabling", "service": "/service", "cases": "/projects", "privacy": "/privacy", "noemail": "/email-policy"},P2ID={};Object.keys(R).forEach(function(k){if(k!=='construction')P2ID[R[k]]=k});
+  var TITLES={"home": "DORICOM Co., Ltd. | ICT Construction Specialist", "greeting": "CEO Message", "overview": "Company Overview", "org": "Organization", "location": "Location", "cons1": "Structured Cabling", "cons2": "Fiber Optic Installation", "cons3": "Network Build & Maintenance", "cons4": "Wi-Fi Installation", "cons5": "CCTV & Security Works", "service": "Telecom & Security", "cases": "Projects", "privacy": "Privacy Policy", "noemail": "Email Collection Refusal", "_site": "DORICOM Co., Ltd."};
+  function curId(){
+    var hh=location.hash.slice(1);if(hh&&(menuOf[hh]||hh==='home'))return hh;
+    var p=location.pathname.replace(/\.html$/,'').replace(/\/+$/,'');
+    if(BASE&&p.indexOf(BASE)===0)p=p.slice(BASE.length);
+    if(p===''||p==='/index')p='/';
+    return P2ID[p]||'home';
+  }
+  function setLang(h){
+    var path=R[h]||'/';
+    document.querySelectorAll('.lang a').forEach(function(a){
+      var en=a.textContent.trim()==='ENG';
+      a.href=en?(path==='/'?'/en':'/en'+path):path;
+      a.onclick=function(){try{localStorage.setItem('doricom_lang',en?'en':'ko')}catch(e){}};
+    });
+  }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a');if(!a||a.target==='_blank')return;
+    var href=a.getAttribute('href')||'';if(href.charAt(0)!=='/'||a.closest('.lang'))return;
+    var p=href.replace(/\/+$/,'');if(BASE&&p.indexOf(BASE)===0)p=p.slice(BASE.length);if(p==='')p='/';
+    if(!(p in P2ID))return;
+    e.preventDefault();history.pushState({},'',href);route();
+  });
+  addEventListener('popstate',function(){route()});
+
+  var pages=document.querySelectorAll('[data-page]');
+  var menuOf={greeting:'about',overview:'about',org:'about',location:'about',construction:'cons',cons1:'cons',cons2:'cons',cons3:'cons',cons4:'cons',cons5:'cons',service:'svc',cases:'cases',privacy:'cs',noemail:'cs'};
+  function route(){
+    var h=curId(); if(!menuOf[h]) h='home'; setLang(h); document.title=h==='home'?TITLES.home:TITLES[h]+' | '+TITLES._site; if(h==='construction') h='cons1';
+    pages.forEach(function(p){
+      var keys=p.dataset.page.split(' '),on=keys.indexOf(h)>-1;p.classList.toggle('show',on);
+      if(on){p.querySelectorAll('[data-sub]').forEach(function(s){s.hidden=s.dataset.sub!==h});
+        p.querySelectorAll('.tabs a[data-t]').forEach(function(a){a.classList.toggle('on',a.dataset.t===h)});}
+    });
+    document.querySelectorAll('.gnb>li>a').forEach(function(a){a.classList.toggle('on',a.dataset.m===menuOf[h])});
+    hd.classList.remove('open');mn.hidden=true;mb.setAttribute('aria-expanded','false');
+    window.scrollTo(0,0);
+  }
+  addEventListener('hashchange',route);route();
+
+  var slides=document.querySelectorAll('.mv .slide'),cur=0,bar=document.getElementById('mvBar'),num=document.getElementById('mvCur'),t0=Date.now(),DUR=6000;
+  function go(n){slides[cur].classList.remove('on');cur=(n+slides.length)%slides.length;slides[cur].classList.add('on');num.textContent='0'+(cur+1);t0=Date.now()}
+  document.getElementById('mvNext').onclick=function(){go(cur+1)};
+  document.getElementById('mvPrev').onclick=function(){go(cur-1)};
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  (function tick(){var p=(Date.now()-t0)/DUR;if(p>=1&&!reduce){go(cur+1);p=0}bar.style.width=(Math.min(p,1)*100)+'%';requestAnimationFrame(tick)})();
+
+  var fb=document.querySelectorAll('#filter button'),items=document.querySelectorAll('#gal a');
+  fb.forEach(function(b){b.onclick=function(){fb.forEach(function(x){x.classList.toggle('on',x===b)});items.forEach(function(i){i.hidden=!(b.dataset.f==='all'||i.dataset.c===b.dataset.f)})}});
+
+  document.getElementById('topBtn').onclick=function(){window.scrollTo({top:0,behavior:reduce?'auto':'smooth'})};
+
+
+})();
+</script>
+
+</body>
+</html>
