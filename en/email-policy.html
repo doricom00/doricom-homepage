@@ -288,8 +288,8 @@ img{max-width:100%}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .im-m1{background:url(/assets/img/493d83011f.jpg) center/cover no-repeat!important}
-.im-m2{background:url(/assets/img/6235502b55.jpg) center/cover no-repeat!important}
-.im-m3{background:url(/assets/img/35ad9da1e0.jpg) center/cover no-repeat!important}
+.im-m2{background:url(/assets/img/ee49511320.jpg) center/cover no-repeat!important}
+.im-m3{background:url(/assets/img/3fce6220df.jpg) center/cover no-repeat!important}
 .im-c1{background:url(/assets/img/f0f9c64e47.jpg) center/cover no-repeat!important}
 .im-c2{background:url(/assets/img/cb6f600147.jpg) center/cover no-repeat!important}
 .im-c3{background:url(/assets/img/c8a6f18b10.jpg) center/cover no-repeat!important}
@@ -395,7 +395,7 @@ img{max-width:100%}
   .sv p{font-size:14px;padding-inline:10px}
   .mv{height:520px}
   .mv .slide .photo::before{background:linear-gradient(180deg,rgba(4,30,70,.35) 0%,rgba(4,30,70,.75) 100%)!important}
-  .mv .im-m1{background-image:url(/assets/img/ab550c24a4.jpg)!important;background-position:center!important}.mv .im-m2{background-image:url(/assets/img/c5461c19ba.jpg)!important;background-position:center!important}.mv .im-m3{background-image:url(/assets/img/816aecbb26.jpg)!important;background-position:center!important}
+  .mv .im-m1{background-image:url(/assets/img/ab550c24a4.jpg)!important;background-position:center!important}.mv .im-m2{background-image:url(/assets/img/13f2cb20de.jpg)!important;background-position:center!important}.mv .im-m3{background-image:url(/assets/img/26f539c6bf.jpg)!important;background-position:center!important}
   .m-bar{display:grid;grid-template-columns:1.4fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:95;padding-bottom:env(safe-area-inset-bottom,0px);background:#fff;box-shadow:0 -4px 14px rgba(0,0,0,.08)}
   .m-bar a{display:flex;align-items:center;justify-content:center;height:56px;font-weight:700;font-size:15px;background:var(--navy);color:#fff}
   .m-bar a.ask{background:var(--blue)}
@@ -480,6 +480,26 @@ img{max-width:100%}
 .fab-tel{width:68px!important;padding:12px 0!important;right:24px!important;bottom:calc(104px + env(safe-area-inset-bottom,0px))!important}
 .top-btn{width:68px!important;height:68px!important;font-size:13px!important;right:24px!important}
 @media (max-width:640px){.top-btn{width:46px!important;height:46px!important;right:14px!important}}
+.mv .slide .photo{background-position:center bottom!important}
+.mv .slide .photo::before{background:linear-gradient(90deg,rgba(4,30,70,.35) 0%,rgba(4,30,70,.12) 45%,rgba(4,30,70,0) 70%)!important}
+@media (max-width:640px){.mv .slide .photo::before{background:linear-gradient(180deg,rgba(4,30,70,.3) 0%,rgba(4,30,70,.7) 100%)!important}}
+.mv.night .im-m3{background-image:url(/assets/img/568162d298.jpg)!important}.mv.night .im-m1{background-image:url(/assets/img/78b24fda87.jpg)!important}.mv.night .im-m2{background-image:url(/assets/img/72237ce229.jpg)!important}
+@media (max-width:640px){.mv.night .im-m3{background-image:url(/assets/img/5a71e17ae0.jpg)!important}.mv.night .im-m1{background-image:url(/assets/img/f652ce0b25.jpg)!important}.mv.night .im-m2{background-image:url(/assets/img/4a651019d6.jpg)!important}}
+
+
+
+
+
+/* sub banners 1028b */
+.sv .photo.im-sv1{background:url(/assets/img/49f67afb52.jpg) center bottom/cover no-repeat!important}
+.sv .photo.im-sv2{background:url(/assets/img/8d3d3c02fa.jpg) right center/cover no-repeat!important}
+.sv .photo.im-sv3{background:url(/assets/img/f663da27f6.jpg) right 35%/cover no-repeat!important}
+
+
+/* slide 2,3 fit-height 1029 */
+@media (min-width:641px){.mv .slide .photo.im-m1{background:url(/assets/img/493d83011f.jpg) right bottom/auto 100% no-repeat,url(/assets/img/493d83011f.jpg) left bottom/100000% 100% no-repeat!important}.mv .slide .photo.im-m2{background:url(/assets/img/ee49511320.jpg) right bottom/auto 100% no-repeat,url(/assets/img/ee49511320.jpg) left bottom/100000% 100% no-repeat!important}.mv.night .slide .photo.im-m1{background:url(/assets/img/78b24fda87.jpg) right bottom/auto 100% no-repeat,url(/assets/img/78b24fda87.jpg) left bottom/100000% 100% no-repeat!important}.mv.night .slide .photo.im-m2{background:url(/assets/img/72237ce229.jpg) right bottom/auto 100% no-repeat,url(/assets/img/72237ce229.jpg) left bottom/100000% 100% no-repeat!important}}
+
+@media (max-width:640px){.sv .photo.im-sv2{background:url(/assets/img/ee49511320.jpg) center/cover no-repeat!important}}
 
 @media (max-width:640px){#hd .bar{gap:8px!important}.m-tel{white-space:nowrap;font-size:13px!important;padding:7px 9px!important;margin-right:4px!important}.m-tel::before{margin-right:4px!important}.lang-m a{padding:4px 6px!important;font-size:11px!important}#hd .logo img{height:32px!important}}
 .bar>.lang.lang-m{margin-left:auto!important;margin-right:8px}
@@ -487,8 +507,10 @@ img{max-width:100%}
 .org .ceo{display:block;width:280px;margin:0 auto}
 .org .vline{margin:0 auto}
 .org .teams{grid-template-columns:repeat(3,1fr)!important;gap:24px!important;width:100%}
-.org .teams::before{left:16.66%!important;right:16.66%!important}
+.org .teams::before{left:calc((100% - 48px)/6)!important;right:calc((100% - 48px)/6)!important;top:0!important;height:2px!important}
+.org .team::before{left:calc(50% - 1px)!important;width:2px!important;top:-51px!important;height:51px!important}
 @media (max-width:1100px){.org .teams{grid-template-columns:1fr!important}}
+@media (max-width:640px){.lnb .tabs{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important}.lnb .tabs a{white-space:normal!important;word-break:keep-all;line-height:1.35}.loc-grid{grid-template-columns:minmax(0,1fr)!important}.loc-grid>*{min-width:0}.loc-grid .photo.im-bld{aspect-ratio:auto!important;width:100%}}
 
 .gnb{flex:0 0 auto!important}
 @media (max-width:1320px){
@@ -564,7 +586,7 @@ img{max-width:100%}
 
   <section class="sec">
     <div class="inner">
-      <div class="tit left"><div style="text-align:left"><h3>Projects</h3><p>Sites built by DORICOM.</p></div><a class="more" href="/en/projects">More +</a></div>
+      <div class="tit left"><div style="text-align:left"><h3>Projects</h3><p>Network, CCTV and telecom projects designed and installed by DORICOM.</p></div><a class="more" href="/en/projects">More +</a></div>
       <div class="gal">
         <a href="/en/projects"><div class="photo im-g0"></div><span class="cat">Hospital</span><h4>Nursing hospital network & CCTV</h4><p class="loc">Busan | Telecom room rack setup, network cabling</p></a><a href="/en/projects"><div class="photo im-g1"></div><span class="cat">Office</span><h4>Office LAN cabling & rack setup</h4><p class="loc">Changwon | Office relocation cabling, network equipment</p></a><a href="/en/projects"><div class="photo im-g2"></div><span class="cat">Factory</span><h4>New factory Wi-Fi zone</h4><p class="loc">Gimhae | Conduit work, AP installation</p></a><a href="/en/projects"><div class="photo im-g3"></div><span class="cat">Hospital</span><h4>Women's hospital telecom room</h4><p class="loc">Yangsan | Fiber distribution, network equipment, racks</p></a>
       </div>
@@ -588,7 +610,7 @@ img{max-width:100%}
 
 <!-- ===== SUB: 회사소개 ===== -->
 <div data-page="greeting overview org location">
-  <section class="sv"><div class="photo im-m3"></div><div class="inner"><h2>About Us</h2><p>An ICT construction company you can rely on</p></div></section>
+  <section class="sv"><div class="photo im-sv1"></div><div class="inner"><h2>About Us</h2><p>An ICT construction company you can rely on</p></div></section>
   <div class="lnb"><div class="inner"><div class="tabs"><a href="/en/company/greeting" data-t="greeting">CEO Message</a><a href="/en/company/overview" data-t="overview">Company Overview</a><a href="/en/company/organization" data-t="org">Organization</a><a href="/en/company/location" data-t="location">Location</a></div><div class="loc" id="loc1">HOME &gt; About Us</div></div></div>
 
   <section class="page" data-sub="greeting"><div class="inner">
@@ -596,7 +618,6 @@ img{max-width:100%}
     <div class="greet">
       <div class="photo im-ceo"></div>
       <div class="txt">
-        <div class="lead">CEO MESSAGE</div>
         <h4>Every installation should earn lifelong trust,<br>down to the parts you never see.</h4>
         <p>Hello, I am Seungah Shin, CEO of DORICOM Co., Ltd.<br>Thank you for visiting our website.</p>
         <p>Telecommunications have become the foundation of every business. When a single line or cable fails, office work, hospital care and store sales all stop with it. At DORICOM, we take pride in making sure these essentials always simply work.</p>
@@ -632,7 +653,7 @@ img{max-width:100%}
       <li><em>PROMISE 02</em><b>Careful,<br>thorough work</b><p>Our principle is to do it right the first time, so after-service is rarely needed.</p></li>
       <li><em>PROMISE 03</em><b>Fast response,<br>friendly service</b><p>We respond quickly after installation and stay a long-term partner.</p></li>
     </ul>
-    <div class="org"><div class="ceo"><small>CEO</small>CEO</div><div class="vline"></div>
+    <div class="org"><div class="ceo">CEO</div><div class="vline"></div>
       <div class="teams">
         <div class="team"><h4>Technical Support</h4><ul><li>ICT design, construction, quotes</li><li>Network installation, maintenance</li><li>CCTV & security installation</li></ul></div>
         <div class="team"><h4>Customer Support</h4><ul><li>Consultation</li><li>Telecom subscriptions, activation</li><li>After-service, follow-up</li></ul></div>
@@ -692,7 +713,7 @@ img{max-width:100%}
 
 <!-- ===== SUB: 서비스 ===== -->
 <div data-page="service">
-  <section class="sv"><div class="photo im-m2"></div><div class="inner"><h2>Telecom & Security</h2><p>Telecom and security services tailored to your business</p></div></section>
+  <section class="sv"><div class="photo im-sv2"></div><div class="inner"><h2>Telecom & Security</h2><p>Telecom and security services tailored to your business</p></div></section>
   <div class="lnb"><div class="inner"><div class="tabs"><a href="/en/service" class="on">Services</a></div><div class="loc">HOME &gt; Telecom & Security</div></div></div>
   <section class="page" style="padding-top:40px"><div class="inner">
     <div class="svc-row"><div class="photo im-c3"></div><div><h4>Internet, Phone & IPTV</h4><p>We design internet, VoIP, representative numbers and IPTV around your headcount, industry and space, and review your current plans to cut unnecessary costs.</p></div></div>
@@ -703,7 +724,7 @@ img{max-width:100%}
 
 <!-- ===== SUB: 시공실적 ===== -->
 <div data-page="cases">
-  <section class="sv"><div class="photo im-m1"></div><div class="inner"><h2>Projects</h2><p>Projects across Korea</p></div></section>
+  <section class="sv"><div class="photo im-sv3"></div><div class="inner"><h2>Projects</h2><p>Projects across Korea</p></div></section>
   <div class="lnb"><div class="inner"><div class="tabs"><a href="/en/projects" class="on">Projects</a></div><div class="loc">HOME &gt; Projects</div></div></div>
   <section class="page"><div class="inner">
     <div class="filter" id="filter"><button class="on" data-f="all">All</button><button data-f="hos">Hospital</button><button data-f="off">Office</button><button data-f="fac">Factory</button></div>
@@ -824,6 +845,7 @@ img{max-width:100%}
   document.getElementById('topBtn').onclick=function(){window.scrollTo({top:0,behavior:reduce?'auto':'smooth'})};
 
 
+  (function(){var mv=document.querySelector('.mv');if(!mv)return;function n(){var h=new Date().getHours();mv.classList.toggle('night',h>=19||h<5)}n();setInterval(n,60000)})();
 })();
 </script>
 
